@@ -35,7 +35,6 @@ body {
     font-family: var(--font-family);
     background-color: var(--azul-oscuro);
     color: var(--blanco);
-    padding: var(--padding);
 }
 
 
@@ -46,6 +45,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    padding: var(--padding);
 }
 
 .header__logo {
@@ -81,3 +82,24 @@ body {
     justify-content: space-between;
 }
 
+/* ---- section hero ---- */ 
+
+.hero {
+    height: 90vh;
+    background-image: url(/images/hero.png);
+    background-repeat: no-repeat;
+    padding-left: 80px;
+}
+
+.hero__title {
+    font-size: var(--heading);
+    color: var(--negro);
+    padding-top: 220px;
+}
+
+.hero__button {
+    padding: 15px 40px;
+    margin-top: 30px;
+    border-radius: 50px;
+    border: 3px solid #F1F1F1;
+}
