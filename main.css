@@ -12,6 +12,7 @@
     --azul-oscuro: #1F2937;
     --gris-oscuro: #1F2937;
     --gris-claro: #374151;
+    --verde: #8FA206;
 
     /* ---- utilities ---- */ 
     --padding: 0px 34px;
@@ -35,9 +36,8 @@ body {
     font-family: var(--font-family);
     background-color: var(--azul-oscuro);
     color: var(--blanco);
+    overflow-x: hidden;
 }
-
-
 /* ---- Header ---- */
 
 .header {
@@ -45,7 +45,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: var(--padding);
 }
 
@@ -53,6 +52,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
 
 .header__nav {
     width: 370px;
@@ -102,4 +102,52 @@ body {
     margin-top: 30px;
     border-radius: 50px;
     border: 3px solid #F1F1F1;
+}
+
+/* ---- section our recomendations ---- */ 
+
+.our-recomendations {
+    padding: var(--padding);
+    margin-bottom: 120px;
+}
+
+.our-recomendations__cards {
+    display: flex;
+    padding: var(--padding);
+}
+
+.our-recomendations {
+    height: 340px;
+}
+
+.our-recomendations__title {
+    margin-bottom: 40px;
+    padding: var(--padding);
+}
+
+.our-recomendations-div {
+    margin-right: 30px;
+    height: 320px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.cards__title {
+    margin-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.card__pgraph {
+    padding-left: 20px;
+}
+
+.card1, 
+.card3,
+.card6{
+    background-color: var(--gris-claro);
+}
+
+.card2, 
+.card4 {
+    background-color: var(--verde);
 }
