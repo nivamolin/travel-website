@@ -1,0 +1,33 @@
+:root {
+    /* --- fuentes ---- */ 
+    --font-family: 'Montserrat', sans-serif;
+    --font-size: 1.6rem; 
+    --semi-bold: 600;
+    --heading: 3.8rem;
+    --small-title: 2.2rem;
+
+    /* ---- colors ---- */ 
+    --blanco: #FFF;
+    --negro: #000;
+    --azul-oscuro: #1F2937;
+    --gris-oscuro: #1F2937;
+    --gris-claro: #374151;
+}
+
+
+*, 
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+}
