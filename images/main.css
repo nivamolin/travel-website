@@ -12,6 +12,9 @@
     --azul-oscuro: #1F2937;
     --gris-oscuro: #1F2937;
     --gris-claro: #374151;
+
+    /* ---- utilities ---- */ 
+    --padding: 0px 34px;
 }
 
 
@@ -30,4 +33,51 @@ html {
 body {
     font-size: var(--font-size);
     font-family: var(--font-family);
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    padding: var(--padding);
 }
+
+
+/* ---- Header ---- */
+
+.header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header__nav {
+    width: 370px;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+}
+
+.header__links {
+    text-decoration: none;
+    color: var(--blanco);
+    margin-right: 30px;
+    font-weight: var(--semi-bold);
+    transition: .3s;
+}
+
+.header__links:hover {
+    text-decoration: underline; 
+}
+
+.header__container2 {
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
