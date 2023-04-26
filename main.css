@@ -151,3 +151,17 @@ body {
 .card4 {
     background-color: var(--verde);
 }
+
+/* section Trending */ 
+
+.trending {
+    padding: var(--padding);
+}
+
+.trending__container {
+    text-align: center;
+}
+
+.trending__title {
+    text-align: left;
+}
